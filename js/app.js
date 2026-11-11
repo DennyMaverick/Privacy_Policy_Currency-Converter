@@ -55,7 +55,7 @@ const langs = {
     en: "selected language;",
   },
   "choosen-theme": {
-    ru: "выбранная цветовая тема",
+    ru: "выбранная цветовая тема.",
     en: "selected color theme.",
   },
   "privacy-policy-data-desc-fifth": {

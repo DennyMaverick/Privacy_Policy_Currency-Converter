@@ -51,12 +51,12 @@ const langs = {
     en: "To ensure the proper functioning and ease of use of the web version and mobile application, local storage (localStorage) is used. Only the following user interface settings are stored in localStorage:",
   },
   "choosen-lang": {
-    ru: "выбранный язык",
-    en: "selected language",
+    ru: "выбранный язык;",
+    en: "selected language;",
   },
   "choosen-theme": {
-    ru: "выбранная цветовая тема (moon / dark).",
-    en: "selected color theme (moon / dark).",
+    ru: "выбранная цветовая тема",
+    en: "selected color theme.",
   },
   "privacy-policy-data-desc-fifth": {
     ru: "Указанные настройки хранятся локально на устройстве пользователя и используются исключительно для сохранения выбранных параметров интерфейса. Эти сведения не передаются владельцу проекта и не используются для идентификации пользователей.",
@@ -90,9 +90,6 @@ const repeatElems = {
     en: "Currency Converter Online",
   },
 }
-
-
-
 
 const langListItems = document.querySelectorAll(".lang-tool__item")
 // Массив всех доступных языков
@@ -161,7 +158,6 @@ function changeLang() {
       elem.innerHTML = langs[key][hash]
     }
   }
-
 
   for (let key in repeatElems) {
     let elems = document.querySelectorAll(".lang-" + key)

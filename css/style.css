@@ -40,6 +40,11 @@ p {
 
 .logo-title {
   margin-bottom: 0;
+  cursor: pointer;
+}
+
+.logo-title-link {
+  color: #fff;
 }
 
 .header {
@@ -52,6 +57,26 @@ p {
   padding-bottom: 20px;
   background-color: #0366d6;
   z-index: 1000;
+}
+
+.logo {
+  position: relative;
+  transition: opacity 0.3s ease;
+
+}
+
+.logo:hover {
+  opacity: 0.8;
+
+}
+
+.logo-title-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .footer {

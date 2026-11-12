@@ -10,8 +10,8 @@ const langs = {
     en: "Privacy Policy",
   },
   "privacy-policy-description": {
-    ru: "Настоящая Политика конфиденциальности распространяется на веб-версию проекта «Currency Converter – Конвертер валют онлайн», размещённую на сайте https://currency-converter.dennymaverick.ru, и соответствующее мобильное приложение Android, распространяемое через RuStore.",
-    en: "This Privacy Policy applies to the web version of the project “Currency Converter – Online Currency Converter”, hosted at https://currency-converter.dennymaverick.ru, and the corresponding Android mobile application distributed through RuStore.",
+    ru: "Настоящая Политика конфиденциальности распространяется на веб-версию проекта «Currency Converter – Конвертер валют онлайн», размещённую на сайте <a target='_blank' href='https://currency-converter.dennymaverick.ru'>https://currency-converter.dennymaverick.ru</a>, и соответствующее мобильное приложение Android, распространяемое через RuStore.",
+    en: "This Privacy Policy applies to the web version of the project “Currency Converter – Online Currency Converter”, hosted at <a target='_blank' href='https://currency-converter.dennymaverick.ru'>https://currency-converter.dennymaverick.ru</a>, and the corresponding Android mobile application distributed through RuStore.",
   },
   "privacy-policy-first-title": {
     ru: "1. Сбор и использование данных",

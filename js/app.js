@@ -1,6 +1,10 @@
 //* =========== Объект с переводом страницы ==============
 
 const langs = {
+  title: {
+    ru: "Политика конфиденциальности, Currency Converter – Конвертер валют онлайн",
+    en: "Privacy Policy, Currency Converter – Online Currency Converter",
+  },
   "privacy-policy-title": {
     ru: "Политика конфиденциальности",
     en: "Privacy Policy",
@@ -63,10 +67,14 @@ const langs = {
     en: "These settings are stored locally on the user's device and are used exclusively to preserve the selected interface preferences. This information is not transmitted to the project owner and is not used to identify users.",
   },
   "privacy-policy-data-desc-sixth": {
-    ru: "На момент публикации настоящей редакции Политики в проекте не используются сторонние сервисы веб-аналитики и рекламные сети. В случае подключения таких сервисов, включая Яндекс.Метрику и Рекламную сеть Яндекса (РСЯ), настоящая Политика будет дополнена сведениями о целях использования соответствующих сервисов, категориях обрабатываемых данных и применяемых технологиях, включая файлы cookie.",
-    en: "As of the publication date of this version of the Privacy Policy, the project does not use third-party web analytics services or advertising networks. If such services are introduced in the future, including Yandex Metrica and the Yandex Advertising Network (YAN), this Privacy Policy will be updated to include information about the purposes of using these services, the categories of data processed, and the technologies used, including cookies.",
+    ru: "На момент публикации настоящей редакции Политики в проекте не используются сторонние сервисы веб-аналитики и рекламные сети.",
+    en: "As of the publication date of this version of the Privacy Policy, the project does not use third-party web analytics services or advertising networks.",
   },
   "privacy-policy-data-desc-seventh": {
+    ru: "В случае подключения таких сервисов, включая Яндекс.Метрику и Рекламную сеть Яндекса (РСЯ), настоящая Политика будет дополнена сведениями о целях использования соответствующих сервисов, категориях обрабатываемых данных и применяемых технологиях, включая файлы cookie.",
+    en: "If such services are introduced in the future, including Yandex Metrica and the Yandex Advertising Network (YAN), this Privacy Policy will be updated to include information about the purposes of using these services, the categories of data processed, and the technologies used, including cookies.",
+  },
+  "privacy-policy-data-desc-eighth": {
     ru: "Веб-версия проекта размещена на платформе GitHub Pages, предоставляемой компанией GitHub, Inc. При посещении веб-версии хостинг может автоматически обрабатывать техническую информацию, включая IP-адрес, дату и время обращения, запрашиваемую страницу, тип браузера и операционную систему пользователя. Такая обработка осуществляется инфраструктурой GitHub в целях обеспечения работоспособности, безопасности и защиты сервиса.",
     en: "The web version of the project is hosted on GitHub Pages, a platform provided by GitHub, Inc. When users visit the web version, the hosting provider may automatically process technical information, including IP addresses, dates and times of access, requested pages, browser types, and operating systems. Such processing is carried out by GitHub's infrastructure to ensure the functionality, security, and protection of the service.",
   },
@@ -79,8 +87,8 @@ const langs = {
     en: "the GitHub Privacy Statement",
   },
   "date-of-update": {
-    ru: "Дата последнего обновления: 11 ноября 2026 года.",
-    en: "Last updated: November 11, 2026.",
+    ru: "Дата последнего обновления: 12 ноября 2026 года.",
+    en: "Last updated: November 12, 2026.",
   },
 }
 

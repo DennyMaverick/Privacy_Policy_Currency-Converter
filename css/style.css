@@ -101,6 +101,11 @@ p {
   margin-bottom: 0;
 }
 
+.footer-description span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;

@@ -3,7 +3,7 @@
 const langs = {
   title: {
     ru: "Политика конфиденциальности, Currency Converter – Конвертер валют онлайн",
-    en: "Privacy Policy, Currency Converter – Online Currency Converter",
+    en: "Privacy Policy, Currency Converter Online",
   },
   "privacy-policy-title": {
     ru: "Политика конфиденциальности",
@@ -11,7 +11,7 @@ const langs = {
   },
   "privacy-policy-description": {
     ru: "Настоящая Политика конфиденциальности распространяется на веб-версию проекта «Currency Converter – Конвертер валют онлайн», размещённую на сайте <a target='_blank' href='https://currency-converter.dennymaverick.ru'>https://currency-converter.dennymaverick.ru</a>, и соответствующее мобильное приложение Android, распространяемое через RuStore.",
-    en: "This Privacy Policy applies to the web version of the project «Currency Converter – Online Currency Converter», hosted at <a target='_blank' href='https://currency-converter.dennymaverick.ru'>https://currency-converter.dennymaverick.ru</a>, and the corresponding Android mobile application distributed through RuStore.",
+    en: "This Privacy Policy applies to the web version of the project «Currency Converter Online», hosted at <a target='_blank' href='https://currency-converter.dennymaverick.ru'>https://currency-converter.dennymaverick.ru</a>, and the corresponding Android mobile application distributed through RuStore.",
   },
   "privacy-policy-first-title": {
     ru: "1. Сбор и использование данных",
@@ -40,7 +40,7 @@ const langs = {
 
   "privacy-policy-data-desc-first": {
     ru: "Приложение «Currency Converter – Конвертер валют онлайн» самостоятельно не запрашивает, не собирает, не хранит и не передаёт персональные данные пользователей. Локально сохраняются только настройки интерфейса, описанные в настоящей Политике.",
-    en: "The «Currency Converter – Online Currency Converter» application does not independently request, collect, store, or transmit users' personal data. Only the interface settings described in this Privacy Policy are stored locally.",
+    en: "The «Currency Converter Online» application does not independently request, collect, store, or transmit users' personal data. Only the interface settings described in this Privacy Policy are stored locally.",
   },
   "privacy-policy-data-desc-second": {
     ru: "Приложение использует интернет-соединение для получения актуальных курсов валют из открытого источника — Центрального банка Российской Федерации (ЦБ РФ). Полученные курсы валют используются исключительно для выполнения расчётов и отображения результатов конвертации.",

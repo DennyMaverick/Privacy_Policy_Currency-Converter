@@ -178,3 +178,15 @@ function changeLang() {
 }
 // запуск функции changeLang()
 changeLang()
+
+document.addEventListener("DOMContentLoaded", () => {
+  const appLinks = document.querySelectorAll(".logo-title-link")
+
+  appLinks.forEach((link) => {
+    if (!link) return
+
+    const targetAppLinkUrl = window.location.hash === "#en" ? link.dataset.en : link.dataset.ru
+
+    link.href = targetAppLinkUrl
+  })
+})
